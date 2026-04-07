@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+/* الصورة */
+.hero {
+  height: 200vh; /* خليها أطول عشان تعمل scroll */
+
+  background: url("WhatsApp Image 2026-03-28 at 3.58.03 AM.jpeg") no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+/* النص الثابت 🔥 */
+.hero h1 {
+  position: fixed; /* أهم حاجة */
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+
+  text-shadow: 0 0 20px rgba(255, 215, 0, 0.8);
+}
+
